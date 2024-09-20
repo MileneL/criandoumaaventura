@@ -1,0 +1,33 @@
+body{
+background-color: rgb(120, 50, 0);
+color: black;
+font-family:"DM Serif Text", serif;
+display: flex;
+justif-content: center;
+align-items: center;
+height: 300px;
+margin: 0;
+}
+
+button{
+    background-color: gray;
+    color:black;
+    font-family:  "Merienda", cursive;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo{
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img{
+    max-width: 90%;
+}
